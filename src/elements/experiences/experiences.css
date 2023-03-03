@@ -1,0 +1,45 @@
+#experiences > h2 {
+   padding-top: 1rem;
+   padding-bottom: 2rem;
+}
+
+.experience-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container-expcard {
+    width: 250px;
+    height:280px;
+    background-color: var(--color-bg);
+    border-radius:10px;
+    padding: 10px;
+    overflow: hidden;
+    margin: 20px;
+}
+
+ .image-expcard {
+   width: 100%;
+   height: 65%;
+   overflow: hidden;
+   border-radius: 10px;
+ }
+
+ .details-exp > h4{
+    color: var(--color-primary);
+    font-weight: bold;
+ }
+
+ .details-exp {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+ }
+
+ .used {
+    color: var(--color-primary);
+ }

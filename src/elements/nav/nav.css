@@ -1,0 +1,23 @@
+nav {
+    background: rgba(0,0,0, 0.1);
+    width: max-content;
+    padding: 0.8rem 1.8rem;
+    display: block;
+    z-index: 3;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 2rem;
+    display:flex;
+    gap: 1.5rem;
+    border-radius: 3rem;
+    align-items: center;
+    backdrop-filter: blur(2px);
+}
+
+nav a{
+    background: transparent;
+    font-size: 1.2rem;
+    padding: 1rem;
+    border-radius: 50%;
+}

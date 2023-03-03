@@ -1,0 +1,38 @@
+.about-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#about > h2 {
+    margin: 20px auto 7rem auto;
+}
+
+.my-image {
+    width: 200px;
+    height:200px;
+}
+
+.my-image > img{
+    border-radius: 1.5rem;
+    margin: auto 0;
+}
+
+.about-content {
+    width: 500px;
+    text-align: justify;
+    color: var(--color-white);
+    font-size: 1.2rem;
+}
+
+.separator {
+    border: 3px solid var(--color-primary);
+    height: 220px;
+    margin: auto 20px;
+}
+
+#about {
+    overflow:auto;
+}

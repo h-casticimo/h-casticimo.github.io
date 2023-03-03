@@ -1,0 +1,38 @@
+.project-container {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: flex-start;
+}
+
+#projects{
+    height:100%;
+}
+.container-projcard {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-bg);
+    border-radius:10px;
+    padding: 20px;
+    margin: 10px 10px;
+}
+
+.details-proj > p {
+    text-align: center;
+    font-size: 12px;
+
+}
+
+.details-proj > h4,h5 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.image-projcard > img{
+    border-radius: 10px;
+}
+
+.details-proj > h4{
+    margin-top: 10px;
+}
